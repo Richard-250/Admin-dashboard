@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap"
+        rel="stylesheet">
+</head>
+<div class="side-menu">
+    <div class="brand-name">
+        <h1>Brand</h1>
+    </div>
+    <ul>
+        <li> <i class="material-icons">dashboard</i>&nbsp; <span>Dashboard</span></li>
+        <li> <i class="material-icons">account_circle</i>&nbsp; <span>Students</span></li>
+        <li> <i class="material-icons">supervisor_account</i>&nbsp; <span>Teachers</span></li>
+        <li> <i class='fas fa-laptop-house'></i>&nbsp; <span>Schools</span></li>
+        <li> <i class='fas fa-comment-dollar'></i>&nbsp; <span>Income</span></li>
+        <li> <i class="material-icons">help</i>&nbsp; <span>Help</span></li>
+        <li> <i class="material-icons">settings</i>&nbsp; <span>Settings</span></li>
+    </ul>
+</div>
+
+<div class="container">
+    <div class="header">
+        <div class="nav">
+            <div class="search">
+                <input type="text" placeholder="search...">
+                <button type="submit"><i class="material-icons">search</i></button>
+            </div>
+            <div class="user">
+                <a href="#" class="btn">Add New</a>
+                <svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 15H17L15.595 13.595C15.4063 13.4063 15.2567 13.1822 15.1546 12.9357C15.0525 12.6891 15 12.4249 15 12.158V9C15.0002 7.75894 14.6156 6.54834 13.8992 5.53489C13.1829 4.52144 12.17 3.75496 11 3.341V3C11 2.46957 10.7893 1.96086 10.4142 1.58579C10.0391 1.21071 9.53043 1 9 1C8.46957 1 7.96086 1.21071 7.58579 1.58579C7.21071 1.96086 7 2.46957 7 3V3.341C4.67 4.165 3 6.388 3 9V12.159C3 12.697 2.786 13.214 2.405 13.595L1 15H6M12 15V16C12 16.7956 11.6839 17.5587 11.1213 18.1213C10.5587 18.6839 9.79565 19 9 19C8.20435 19 7.44129 18.6839 6.87868 18.1213C6.31607 17.5587 6 16.7956 6 16V15M12 15H6" stroke="#7F7F7F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <div class="img-case">
+                    <img src="./images/man.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="cards">
+            <div class="card">
+                <div class="box">
+                    <h1>2194</h1>
+                    <h3>Students</h3>
+                </div>
+                <div class="icon-case">
+                    <i class="material-icons" style="font-size: 50px;">account_circle</i>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <h1>53</h1>
+                    <h3>Teachers</h3>
+                </div>
+                <div class="icon-case">
+                    <i class="material-icons" style="font-size: 50px;">supervisor_account</i>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <h1>5</h1>
+                    <h3>Schools</h3>
+                </div>
+                <div class="icon-case">
+                     <i class='fas fa-laptop-house' style="font-size: 50px;"></i>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <h1>350000</h1>
+                    <h3>Icome</h3>
+                </div>
+                <div class="icon-case">
+                    <i class='fas fa-comment-dollar' style="font-size: 50px;"></i>
+                </div>
+            </div>
+        </div>
+        <div class="content-2">
+            <div class="recent-payments">
+                <div class="title">
+                  <h2> Recent Payments </h2>
+                  <a href="#" class="btn">View All</a>
+                </div>
+                <table>
+                    <tr>
+                        <th>Head</th>
+                        <th>School</th>
+                        <th>Amount</th>
+                        <th>Option</th>
+                    </tr>
+                    <tr>
+                        <td>NKURUNZIZA Alexandre</td>
+                        <td>RCA</td>
+                        <td>9000&nbsp; rwf</td>
+                        <td><a href="#" class="btn">View</a></td>
+                    </tr>
+                    <tr>
+                        <td>RURANGWA Fidele</td>
+                        <td>ETO NYAMATA</td>
+                        <td>8000&nbsp; rwf</td>
+                        <td><a href="#" class="btn">View</a></td>
+                    </tr>
+                    <tr>
+                        <td>NKURUNZIZA Dollar</td>
+                        <td>Nyanza tss</td>
+                        <td>7500&nbsp; rwf</td>
+                        <td><a href="#" class="btn">View</a></td>
+                    </tr>
+                    <tr>
+                        <td>Mugabo Shema</td>
+                        <td>NYANZA TSS</td>
+                        <td>9000&nbsp; rwf</td>
+                        <td><a href="#" class="btn">View</a></td>
+                    </tr>
+                    <tr>
+                        <td>CYUBAHIRO Richard</td>
+                        <td>ALU University</td>
+                        <td>150000&nbsp; rwf</td>
+                        <td><a href="#" class="btn">View</a></td>
+                    </tr>
+                    <tr>
+                        <td>MUGWIZA Yves</td>
+                        <td>LYCEE DE RUHANGO</td>
+                        <td>100000&nbsp; rwf</td>
+                        <td><a href="#" class="btn">View</a></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="new-students">
+                <div class="title">
+                    <h2> New Students </h2>
+                    <a href="#" class="btn">View All</a>
+                  </div>
+                  <table>
+                    <tr>
+                        <th>Profile</th>
+                        <th>Name</th>
+                        <th>Option</th>
+                    </tr>
+                    <tr>
+                        <td><img src="./images/man-3.png" alt=""></td>
+                        <td>KAGENZI Philippe</td>
+                        <td><i class="material-icons" style="font-size:36px">info_outline</i></td>
+                    </tr>
+                    <tr>
+                        <td><img src="./images/man-3.png" alt=""></td>
+                        <td>MUHINDA Fiacre</td>
+                        <td><i class="material-icons" style="font-size:36px">info_outline</i></td>
+                    </tr>
+                    <tr>
+                        <td><img src="./images/man-3.png" alt=""></td>
+                        <td>MASEZERANO Obed</td>
+                        <td><i class="material-icons" style="font-size:36px">info_outline</i></td>
+                    </tr>
+                    <tr>
+                        <td><img src="./images/man-3.png" alt=""></td>
+                        <td>IRADUKUNDA Manzi</td>
+                        <td><i class="material-icons" style="font-size:36px">info_outline</i></td>
+                    </tr>
+                    <tr>
+                        <td><img src="./images/man-3.png" alt=""></td>
+                        <td>GASORE Innocent</td>
+                        <td><i class="material-icons" style="font-size:36px">info_outline</i></td>
+                    </tr>
+                  </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<body>
+
+</body>
+
+</html>
